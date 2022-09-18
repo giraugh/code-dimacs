@@ -1,0 +1,47 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "dimacs",
+	"patterns": [
+		{
+			"include": "#problem"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#clause"
+		}
+	],
+	"repository": {
+		"problem": {
+			"match": "^(p)\\s(cnf|dnf)\\s(\\d+)\\s(\\d+)",
+			"captures": {
+				"1": { "name": "keyword.operator.dimacs" },
+				"2": { "name": "entity.name.type.dimacs" },
+				"3": { "name": "constant.numeric.dimacs" },
+				"4": { "name": "constant.numeric.dimacs" }
+			}
+		},
+		"clause": {
+			"name": "clause.dimacs",
+			"patterns": [
+				{
+					"match": "(-)\\d+",
+					"name": "variable.literal.negated.dimacs",
+					"captures": {
+						"1": { "name": "keyword.operator" }
+					}
+				},
+				{
+					"match": "\\d+",
+					"name": "variable.literal.dimacs"
+				}
+			]
+		},
+		"comment": {
+			"name": "comment.line.dimacs",
+			"match": "^c\\s.*"
+		}
+	},
+	"scopeName": "source.dimacs"
+}
