@@ -2,7 +2,7 @@
   "name": "code-dimacs",
   "displayName": "DIMACS",
   "description": "Language support for CNF/DNF files in DIMACS format",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "giraugh",
   "icon": "images/icon.png",
   "repository": {
