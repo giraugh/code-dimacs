@@ -3,6 +3,7 @@
   "displayName": "DIMACS",
   "description": "Language support for CNF/DNF files in DIMACS format",
   "version": "0.0.1",
+  "repository": "https://github.com/giraugh/code-dimacs",
   "engines": {
     "vscode": "^1.71.0"
   },
