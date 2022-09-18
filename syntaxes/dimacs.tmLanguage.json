@@ -26,6 +26,10 @@
 			"name": "clause.dimacs",
 			"patterns": [
 				{
+					"match": "0$",
+					"name": "comment.newline.dimacs"
+				},
+				{
 					"match": "(-)\\d+",
 					"name": "variable.literal.negated.dimacs",
 					"captures": {
