@@ -1,0 +1,25 @@
+{
+  "name": "dimacs-cnf",
+  "displayName": "dimacs-cnf",
+  "description": "Language support for CNF files in DIMACS format",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cnf",
+      "aliases": ["DIMACS CNF", "cnf"],
+      "extensions": [".cnf"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cnf",
+      "scopeName": ".source.cnf",
+      "path": "./syntaxes/cnf.tmLanguage.json"
+    }]
+  }
+}
