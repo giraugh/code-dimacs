@@ -7,6 +7,8 @@
 
 This extension provides syntax highlighting for `.cnf` files using the DIMACS CNF format.
 
+![DIMACS syntax highlighting in VS Code](./images/example.png)
+
 ## Contributing
 
 The files that are used to define the language are below:
