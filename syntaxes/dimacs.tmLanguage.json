@@ -18,8 +18,8 @@
 			"captures": {
 				"1": { "name": "keyword.operator.dimacs" },
 				"2": { "name": "entity.name.type.dimacs" },
-				"3": { "name": "constant.numeric.dimacs" },
-				"4": { "name": "constant.numeric.dimacs" }
+				"3": { "name": "keyword.other.unit.variable.dimacs" },
+				"4": { "name": "keyword.other.unit.clause.dimacs" }
 			}
 		},
 		"clause": {
@@ -27,18 +27,18 @@
 			"patterns": [
 				{
 					"match": "0$",
-					"name": "comment.newline.dimacs"
+					"name": "punctuation.separator.clause.dimacs"
 				},
 				{
 					"match": "(-)\\d+",
-					"name": "variable.literal.negated.dimacs",
+					"name": "constant.numeric.literal.negated.dimacs",
 					"captures": {
 						"1": { "name": "keyword.operator" }
 					}
 				},
 				{
 					"match": "\\d+",
-					"name": "variable.literal.dimacs"
+					"name": "constant.numeric.dimacs"
 				}
 			]
 		},
