@@ -2,7 +2,7 @@
   "name": "code-dimacs",
   "displayName": "DIMACS Language Support",
   "description": "Language support for CNF/DNF files in DIMACS format",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "giraugh",
   "author": "Ewan Breakey (https://ewanb.me)",
   "icon": "images/icon.png",

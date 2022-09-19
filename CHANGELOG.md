@@ -1,5 +1,12 @@
 # Change Log
 
+## v0.0.5
+
+- Adjust token type of clause-ending `0`s
+- Fix package icon
+- Flesh out README and CHANGELOG
+(Thanks to @GRA0007 for the PR)
+
 ## v0.0.4
 
 - Added an icon
