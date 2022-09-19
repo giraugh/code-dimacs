@@ -1,9 +1,10 @@
 {
   "name": "code-dimacs",
-  "displayName": "DIMACS",
+  "displayName": "DIMACS Language Support",
   "description": "Language support for CNF/DNF files in DIMACS format",
   "version": "0.0.4",
   "publisher": "giraugh",
+  "author": "Ewan Breakey (https://ewanb.me)",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
@@ -14,6 +15,13 @@
   },
   "categories": [
     "Programming Languages"
+  ],
+  "keywords": [
+    "DIMACS",
+    "SAT solver",
+    "CNF",
+    "DNF",
+    "logic"
   ],
   "contributes": {
     "languages": [{

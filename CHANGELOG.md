@@ -1,9 +1,17 @@
 # Change Log
 
-All notable changes to the "dimacs-cnf" extension will be documented in this file.
+## v0.0.4
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Added an icon
 
-## [Unreleased]
+## v0.0.3
+
+- Highlight `0` at end of line with comment colour
+
+## v0.0.2
+
+- Change min vscode version from `^1.71.0` to `^1.67.0`
+
+## v0.0.1
 
 - Initial release
